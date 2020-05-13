@@ -45,34 +45,20 @@ brew "optipng"
 brew "nave"
 brew "yarn", args: ["without-node"]
 
-cask "1password"
-cask "adium"
-cask "caffeine"
 cask "docker"
-cask "dropbox"
 cask "firefox"
 cask "google-chrome"
-cask "google-chrome-canary"
-cask "google-drive-file-stream"
-cask "grandperspective"
 cask "iterm2"
-cask "kaleidoscope"
-cask "libreoffice"
-cask "owncloud"
-cask "postman"
+cask "local"
+cask "plexamp"
 cask "sequel-pro"
-cask "sketch"
-cask "skype"
-cask "slack"
-cask "spectacle"
-cask "spotify"
 cask "teamviewer"
-cask "typora"
 cask "visual-studio-code"
 cask "yemuzip"
-cask "zeplin"
 
-mas "Bear", id: 1091189122
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
+mas "Amphetamine", id: 937984704
+mas "Barcode Basics", id: 756888963
+mas "Textual IRC Client", id: 1262957439

@@ -1,6 +1,6 @@
-# bleech/dotfiles
+# pixelsaft/dotfiles
 
-Basic starting point for macos dotfiles for developers at bleech.
+Basic starting point for macos dotfiles for developers at pixelsaft (forked and inspired by [bleech](https://github.com/bleech/dotfiles)).
 
 ## Background
 
