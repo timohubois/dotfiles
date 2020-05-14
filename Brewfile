@@ -43,12 +43,13 @@ brew "optipng"
 brew "nave"
 brew "yarn", args: ["without-node"]
 
-# Other Application
+# Other Applications
 cask "adobe-creative-cloud"
 cask "firefox"
 cask "google-chrome"
 cask "plexamp"
 cask "teamviewer"
+cask "typora"
 cask "visual-studio-code"
 cask "yemuzip"
 
