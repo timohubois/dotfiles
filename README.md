@@ -21,7 +21,7 @@ The final part of these settings are sensible macos defaults. All of the setting
 1. Prepare Setup:
     ```sh
     cd ~
-    git clone git@github.com:bleech/dotfiles.git
+    git clone git@github.com:pixelsaft/dotfiles.git
     cd dotfiles
     ./bootstrap.sh
     ```
