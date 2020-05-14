@@ -19,21 +19,30 @@ The final part of these settings are sensible macos defaults. All of the setting
 ## Instructions
 
 1. Prepare Setup:
+
     ```sh
     cd ~
     git clone git@github.com:pixelsaft/dotfiles.git
     cd dotfiles
     ./bootstrap.sh
     ```
+
 2. Change default shell
     - System Preferences -> Users & Groups
     - Unlock edit mode
     - Right click on your user -> Advanced Options
     - Set `Login shell` to `/usr/local/bin/zsh`
 3. Install and symlink files
+
     ```sh
     # Open `iterm`
     cd ~/dotfiles
     ./install.sh
     ```
 
+## Butfixes
+
+### zsh compinit: insecure directories, run compaudit for list. Ignore insecure directories and continue [y] or abort compinit [n]?
+
+On MacOS Catalina run the following command:
+`compaudit | xargs chmod g-w,o-w`
