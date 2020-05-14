@@ -21,17 +21,15 @@ brew "pwgen"
 brew "zsh"
 brew "mas"
 brew "wp-cli"
+brew "mackup"
 
 # Development environment
-brew "httpd", restart_service: true
-brew "mysql@5.7", restart_service: true, link: true
-brew "php@5.6"
-brew "php@7.0"
-brew "php@7.1", link: false
-brew "php@7.2", restart_service: true, link: true
-brew "php@7.3", link: false
-brew "dnsmasq", restart_service: true
 brew "composer"
+cask "local"
+cask "fork"
+cask "iterm2"
+cask "sequel-pro"
+cask "kaleidoscope"
 
 # Image related
 brew "jpeg"
@@ -45,17 +43,16 @@ brew "optipng"
 brew "nave"
 brew "yarn", args: ["without-node"]
 
-cask "docker"
+# Other Application
+cask "adobe-creative-cloud"
 cask "firefox"
 cask "google-chrome"
-cask "iterm2"
-cask "local"
 cask "plexamp"
-cask "sequel-pro"
 cask "teamviewer"
 cask "visual-studio-code"
 cask "yemuzip"
 
+# App Store Applications
 mas "Pages", id: 409201541
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
