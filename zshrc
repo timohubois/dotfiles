@@ -1,4 +1,6 @@
-source ~/.zplug/init.zsh
+#source ~/.zplug/init.zsh
+export ZPLUG_HOME=$(brew --prefix)/opt/zplug
+source $ZPLUG_HOME/init.zsh
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
@@ -15,7 +17,7 @@ zplug "zsh-users/zsh-history-substring-search", defer:2
 
 zplug "modules/osx", from:prezto
 zplug "plugins/git",   from:oh-my-zsh
-# zplug "plugins/history-substring-search", from:oh-my-zsh
+#zplug "plugins/history-substring-search", from:oh-my-zsh
 #zplug "modules/environment", from:prezto
 #zplug "modules/terminal", from:prezto
 #zplug "modules/editor", from:prezto
