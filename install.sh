@@ -12,7 +12,8 @@ ln -s "$PWD/zshrc" "$HOME/.zshrc"
 ln -s "$PWD/gitconfig" "$HOME/.gitconfig"
 
 # Mackup: Keep your application settings in sync > https://github.com/lra/mackup
-ln -s "$PWD/mackup" "$HOME/.mackup.cfg"
+ln -s "$PWD/mackup.cfg" "$HOME/.mackup.cfg"
+ln -s "$PWD/mackup" "$HOME/.mackup"
 
 # read -p "Enter your github email address" email
 # read -p "Enter your github name" name
