@@ -42,8 +42,7 @@ brew "optipng"
 # Node related
 brew "nave"
 # brew "yarn", args: ["without-node"]
-brew "node@12"
-brew "yarn"
+brew "nvm"
 
 # Other Applications
 cask "adobe-creative-cloud"

@@ -32,6 +32,7 @@ The final part of these settings are sensible macos defaults. All of the setting
     - Unlock edit mode
     - Right click on your user -> Advanced Options
     - Set `Login shell` to `/usr/local/bin/zsh`
+
 3. Install and symlink files
 
     ```sh
@@ -39,6 +40,15 @@ The final part of these settings are sensible macos defaults. All of the setting
     cd ~/dotfiles
     ./install.sh
     ```
+
+4. Fix zplug insecure directories
+   `compaudit | xargs chmod g-w,o-w`
+
+5. Setup Node with nvm
+
+   ```mkdir ~/.nvm
+   nvm install [NodeVersion]
+   nvm use [NodeVersion]```
 
 ## Butfixes
 

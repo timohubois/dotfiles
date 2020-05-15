@@ -1,3 +1,8 @@
+# brew > nvm
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+# brew > zplug
 #source ~/.zplug/init.zsh
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
 source $ZPLUG_HOME/init.zsh
