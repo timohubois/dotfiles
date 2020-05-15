@@ -11,6 +11,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ln -s "$PWD/zshrc" "$HOME/.zshrc"
 ln -s "$PWD/gitconfig" "$HOME/.gitconfig"
 
+# Mackup: Keep your application settings in sync > https://github.com/lra/mackup
+ln -s "$PWD/mackup" "$HOME/.mackup.cfg"
+
 # read -p "Enter your github email address" email
 # read -p "Enter your github name" name
 # Update Homebrew recipes
