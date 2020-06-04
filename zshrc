@@ -48,7 +48,12 @@ if ! zplug check --verbose; then
     fi
 fi
 
-zplug "~/dotfiles/zsh", from:local, use:"*.zsh"
-
 # zplug load --verbose
 zplug load
+
+# zsh settings
+unset LSCOLORS
+export CLICOLOR=1
+export CLICOLOR_FORCE=1
+
+zstyle ':completion:*' menu select
