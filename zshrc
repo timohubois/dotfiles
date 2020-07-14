@@ -1,9 +1,14 @@
+# Prefer US English and use UTF-8.
+export LANG='en_US.UTF-8';
+export LC_ALL='en_US.UTF-8';
+
 # brew > nvm
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# source ~/.zplug/init.zsh
+
 # brew > zplug
-#source ~/.zplug/init.zsh
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
@@ -37,8 +42,8 @@ zplug "plugins/git",   from:oh-my-zsh
 # zplug "modules/history-substring-search", from:prezto
 #zplug "modules/prompt", from:prezto
 
-zplug mafredri/zsh-async, from:github
-zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
+zplug "mafredri/zsh-async", from:github
+zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
@@ -48,7 +53,9 @@ if ! zplug check --verbose; then
     fi
 fi
 
-# zplug load --verbose
+zplug '~/dotfiles/zsh', from:local, use:'*.zsh'
+
+#zplug load --verbose
 zplug load
 
 # zsh settings
@@ -60,3 +67,4 @@ zstyle ':completion:*' menu select
 
 # aliases
 alias ll="ls -lhA"
+alias sshhosts="sed -n 's/Host//p' ~/.ssh/config"
