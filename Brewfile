@@ -6,6 +6,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "mas-cli/tap"
 tap "exolnet/homebrew-deprecated"
+tap "drud/ddev"
 
 # Core packages
 brew "pkg-config"
@@ -24,12 +25,14 @@ brew "wp-cli"
 brew "mackup"
 
 # Development environment
+brew "ddev"
+cask "docker"
+
 brew "composer"
 cask "local"
 cask "fork"
 cask "iterm2"
 cask "sequel-pro"
-cask "kaleidoscope"
 
 # Image related
 brew "jpeg"
