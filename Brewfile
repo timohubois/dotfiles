@@ -32,7 +32,7 @@ brew "composer"
 cask "local"
 cask "fork"
 cask "iterm2"
-cask "sequel-pro"
+cask "sequel-ace"
 
 # Image related
 brew "jpeg"
