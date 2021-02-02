@@ -9,8 +9,7 @@ tap "exolnet/homebrew-deprecated"
 tap "drud/ddev"
 
 # Core packages
-brew "pkg-config"
-brew "bash"
+brew "zsh"
 brew "coreutils"
 brew "findutils"
 brew "grep"
@@ -19,10 +18,10 @@ brew "git"
 brew "vim"
 brew "wget"
 brew "pwgen"
-brew "zsh"
 brew "mas"
 brew "wp-cli"
 brew "mackup"
+brew "thefuck"
 
 # Development environment
 brew "ddev"
@@ -43,7 +42,6 @@ brew "pngquant"
 brew "optipng"
 
 # Node related
-brew "nave"
 # brew "yarn", args: ["without-node"]
 brew "nvm"
 

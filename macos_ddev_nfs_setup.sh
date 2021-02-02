@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# https://ddev.readthedocs.io/en/stable/users/performance/
+
 # Adapted from https://medium.com/@sean.handley/how-to-set-up-docker-for-mac-with-native-nfs-145151458adc
 
 set -o errexit
