@@ -7,6 +7,7 @@ tap "homebrew/services"
 tap "mas-cli/tap"
 tap "exolnet/homebrew-deprecated"
 tap "drud/ddev"
+tap "wpscanteam/tap"
 
 # Core packages
 brew "zsh"
@@ -28,10 +29,11 @@ brew "ddev"
 cask "docker"
 
 brew "composer"
-cask "local"
 cask "fork"
 cask "iterm2"
 cask "sequel-ace"
+brew "wpscan"
+brew "mc"
 
 # Image related
 brew "jpeg"
@@ -40,10 +42,12 @@ brew "jpegoptim"
 brew "pngcrush"
 brew "pngquant"
 brew "optipng"
+brew "svgo"
 
 # Node related
 # brew "yarn", args: ["without-node"]
 brew "nvm"
+brew "nave"
 
 # Other Applications
 cask "adobe-creative-cloud"
