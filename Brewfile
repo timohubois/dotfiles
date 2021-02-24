@@ -58,6 +58,7 @@ cask "teamviewer"
 cask "typora"
 cask "visual-studio-code"
 cask "yemuzip"
+brew "weechat"
 
 # App Store Applications
 mas "Pages", id: 409201541
